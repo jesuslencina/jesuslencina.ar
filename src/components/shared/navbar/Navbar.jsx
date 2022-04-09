@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import { ArtistPalette } from "twemazing";
 import { RiMenu3Line } from "react-icons/ri";
 import { VscChromeClose } from "react-icons/vsc";
@@ -13,12 +13,50 @@ const Navbar = () => {
 
     const [open, setOpen] = useState(false);
 
+    const switchOpen = () => setOpen(!open);
+
     return (
         <NavbarStyled>
-            <Link to="/" className="logo">
+            <div className="logo">
                 <ArtistPalette size={1.6} rem />
                 <p>{texts[language].myName}</p>
-            </Link>
+            </div>
+
+            <nav>
+                <div onClick={switchOpen} className="menu">
+                    {!open ? (
+                        <RiMenu3Line size={26} className="bars" />
+                    ) : (
+                        <VscChromeClose size={26} className="cross" />
+                    )}
+                </div>
+
+                <ul className={open ? "active" : null}>
+                    <li>
+                        <ScrollLink to="about">
+                            {texts[language].about}
+                        </ScrollLink>
+                    </li>
+
+                    <li>
+                        <ScrollLink to="projects">
+                            {texts[language].projects}
+                        </ScrollLink>
+                    </li>
+
+                    <li>
+                        <ScrollLink to="experience">
+                            {texts[language].experience}
+                        </ScrollLink>
+                    </li>
+
+                    <li>
+                        <ScrollLink to="contact">
+                            {texts[language].contact}
+                        </ScrollLink>
+                    </li>
+                </ul>
+            </nav>
         </NavbarStyled>
     );
 };
