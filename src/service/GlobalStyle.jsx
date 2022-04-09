@@ -19,6 +19,14 @@ body {
     color: ${commonColors.darkGray};
 }
 
+a {
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
 `;
 
 export default GlobalStyle;

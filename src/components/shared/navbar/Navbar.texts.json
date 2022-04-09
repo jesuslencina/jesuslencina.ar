@@ -1,0 +1,20 @@
+{
+    "texts": {
+        "en": {
+            "myName": "Jesus Lencina",
+            "switcherAlt": "Switch to Spanish",
+            "about": "About",
+            "projects": "Projects",
+            "experience": "Experience",
+            "contact": "Contact"
+        },
+        "es": {
+            "myName": "Jesús Lencina",
+            "switcherAlt": "Cambiar a Inglés",
+            "about": "Sobre mí",
+            "projects": "Proyectos",
+            "experience": "Experiencia",
+            "contact": "Contacto"
+        }
+    }
+}

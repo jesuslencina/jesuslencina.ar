@@ -1,9 +1,17 @@
+import { BrowserRouter, Routes as Switch, Route } from "react-router-dom";
+
+import Navbar from "./components/shared/navbar/Navbar";
 import { ContextWrapper } from "./service/Context";
 
 const App = () => {
     return (
         <ContextWrapper>
-            <h1>HOLA MUNDO</h1>
+            <BrowserRouter>
+                <Navbar />
+                <Switch>
+                    {/*   <Route exact path="/" element={<Landing />} /> */}
+                </Switch>
+            </BrowserRouter>
         </ContextWrapper>
     );
 };
