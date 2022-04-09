@@ -1,8 +1,10 @@
+import { ContextWrapper } from "./service/Context";
+
 const App = () => {
     return (
-        <div className="App">
+        <ContextWrapper>
             <h1>HOLA MUNDO</h1>
-        </div>
+        </ContextWrapper>
     );
 };
 
