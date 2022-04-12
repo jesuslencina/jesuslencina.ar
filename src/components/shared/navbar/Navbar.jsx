@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useState, useRef } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { ArtistPalette, FlagArgentina, FlagUnitedStates } from "twemazing";
 import { RiMenu3Line } from "react-icons/ri";
@@ -8,28 +8,34 @@ import { AiFillCaretDown } from "react-icons/ai";
 import { Context } from "../../../service/Context";
 import NavbarStyled from "./Navbar.styled";
 import { texts } from "./Navbar.texts.json";
+import { defaultColors } from "../../../utils/defaultColors";
 
 const Navbar = () => {
-    const { language, setLanguage } = useContext(Context);
+    const { language, setLanguage, setColor } = useContext(Context);
+
+    const colorInput = useRef(null);
 
     const [open, setOpen] = useState(false);
 
     const [langSwitcherOpen, setLangSwitcherOpen] = useState(false);
 
-    const [colorSwitcherOpen, setColorSwitcherOpen] = useState(false);
-
     const switchOpen = () => setOpen(!open);
 
     const switchLangSwitcher = () => setLangSwitcherOpen(!langSwitcherOpen);
 
-    const switchColorSwitcher = () => setColorSwitcherOpen(!colorSwitcherOpen);
-
     return (
         <NavbarStyled>
-            <div className="logo">
+            <div className="logo" onClick={() => colorInput.current.click()}>
                 <ArtistPalette size={1.6} rem />
                 <p>{texts[language].myName}</p>
             </div>
+
+            <input
+                type="color"
+                ref={colorInput}
+                className="hidden-color-switcher"
+                onInput={(e) => setColor(e.target.value)}
+            />
 
             <nav>
                 <div onClick={switchOpen} className="menu">
@@ -65,8 +71,8 @@ const Navbar = () => {
                         </ScrollLink>
                     </li>
 
-                    <li>
-                        <div className={"lang-switcher"}>
+                    <li className="switcher-area">
+                        <div className="lang-switcher">
                             <div
                                 className={`flag-container ${
                                     langSwitcherOpen && "active"

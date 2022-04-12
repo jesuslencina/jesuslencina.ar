@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { boxShadow } from "../../../utils/mixins";
+import { boxShadow, cardLike } from "../../../utils/mixins";
 import { paddings } from "../../../utils/variables";
 
 const NavbarStyled = styled.header`
@@ -23,6 +23,12 @@ const NavbarStyled = styled.header`
         }
     }
 
+    .hidden-color-switcher {
+        position: absolute;
+        top: 1.3rem;
+        opacity: 0;
+    }
+
     nav {
         .menu {
             svg {
@@ -33,7 +39,8 @@ const NavbarStyled = styled.header`
         ul {
             position: relative;
 
-            ${boxShadow}
+            ${cardLike}
+
             z-index: 1;
             pointer-events: none;
             position: absolute;
@@ -73,60 +80,63 @@ const NavbarStyled = styled.header`
             }
         }
 
-        .lang-switcher {
-            position: relative;
+        .switcher-area {
+            .lang-switcher {
+                position: relative;
 
-            .flag-container {
-                width: fit-content;
-                padding: 0.05rem 0.2rem;
-                border-radius: 7px;
-                display: flex;
-                align-items: center;
-                gap: 0.2rem;
-                border: 1pt solid ${(props) => props.theme.color};
+                .flag-container {
+                    width: fit-content;
+                    padding: 0.05rem 0.2rem;
+                    border-radius: 7px;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.2rem;
+                    border: 1pt solid ${(props) => props.theme.color};
 
-                transition: background-color 0.5s ease-in-out;
-
-                .triangle {
-                    transition: transform 0.5s ease-in-out;
-                }
-
-                &.active {
-                    background-color: ${(props) => props.theme.color};
+                    transition: background-color 0.5s ease-in-out;
 
                     .triangle {
-                        fill: white;
-                        transform: rotate(-180deg);
+                        transition: transform 0.5s ease-in-out;
+                    }
+
+                    &.active {
+                        background-color: ${(props) => props.theme.color};
+
+                        .triangle {
+                            fill: white;
+                            transform: rotate(-180deg);
+                        }
                     }
                 }
-            }
 
-            .select-area {
-                position: absolute;
-                transform: scaleY(0);
-                top: 2.5rem;
-                left: 0.25rem;
+                .select-area {
+                    position: absolute;
+                    transform: scaleY(0);
+                    top: 2.5rem;
+                    left: 0.25rem;
 
-                display: flex;
-                flex-direction: column;
+                    display: flex;
+                    flex-direction: column;
 
-                pointer-events: none;
+                    pointer-events: none;
 
-                transform-origin: top;
-                transition: all 0.25s ease-in-out;
+                    transform-origin: top;
+                    transition: all 0.25s ease-in-out;
 
-                padding: 0.25rem;
-                background-color: white;
-                border-radius: 4px;
-                ${boxShadow}
+                    padding: 0.25rem;
 
-                &.active {
-                    pointer-events: all;
-                    transform: scaleY(1);
-                }
+                    border-radius: 4px;
 
-                .active svg {
-                    filter: saturate(0.25);
+                    ${cardLike}
+
+                    &.active {
+                        pointer-events: all;
+                        transform: scaleY(1);
+                    }
+
+                    .active svg {
+                        filter: saturate(0.25);
+                    }
                 }
             }
         }
