@@ -11,7 +11,6 @@ ${normalize()}
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -28,6 +27,10 @@ a {
     &:hover{
         text-decoration: underline;
     }
+}
+
+p, a, svg {
+    transition: color 0.8s ease-in-out;
 }
 
 `;

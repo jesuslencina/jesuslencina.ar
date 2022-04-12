@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { boxShadow, cardLike } from "../../../utils/mixins";
-import { paddings } from "../../../utils/variables";
+import { cardLike } from "../../../utils/mixins";
+import { paddings, breakpoints } from "../../../utils/variables";
 
 const NavbarStyled = styled.header`
     display: flex;
@@ -137,6 +137,27 @@ const NavbarStyled = styled.header`
                     .active svg {
                         filter: saturate(0.25);
                     }
+                }
+            }
+        }
+
+        @media screen and (min-width: ${breakpoints.laptop}) {
+            .menu {
+                display: none;
+            }
+
+            ul {
+                all: unset;
+
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                li {
+                    all: unset;
+                    margin: 0 2rem;
+                    color: ${(props) => props.theme.color};
+                    cursor: pointer;
                 }
             }
         }
