@@ -140,8 +140,18 @@ const NavbarStyled = styled.header`
                 }
             }
         }
+    }
 
-        @media screen and (min-width: ${breakpoints.laptop}) {
+    @media screen and (min-width: ${breakpoints.laptop}) {
+        padding: 1.5rem ${paddings.desktopPaddingX};
+
+        .logo svg {
+            transform: translateY(-0.1rem);
+        }
+
+        nav {
+            padding-right: 0;
+
             .menu {
                 display: none;
             }
@@ -158,6 +168,10 @@ const NavbarStyled = styled.header`
                     margin: 0 2rem;
                     color: ${(props) => props.theme.color};
                     cursor: pointer;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
                 }
             }
         }

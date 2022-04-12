@@ -4,6 +4,7 @@ export const commonColors = {
 
 export const paddings = {
     mobilePaddingX: "1.2rem",
+    desktopPaddingX: "2.2rem",
 };
 
 export const breakpoints = {
