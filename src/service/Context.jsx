@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
 import GlobalStyle from "./GlobalStyle";
 import Theme from "./Theme";
@@ -8,7 +8,11 @@ export const Context = createContext();
 
 export const ContextWrapper = ({ children }) => {
     const [language, setLanguage] = useState("en");
-    const [color, setColor] = useState(defaultColors.bubblegum);
+    const [color, setColor] = useState("gray");
+
+    useEffect(() => {
+        setTimeout(() => setColor(defaultColors.bubblegum), 600);
+    }, []);
 
     return (
         <Context.Provider
