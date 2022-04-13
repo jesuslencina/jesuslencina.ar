@@ -1,0 +1,20 @@
+{
+    "texts": {
+        "en": {
+            "graphicAlt": "Computer illustration showing a sparkle on the screen",
+            "sloganPart1": "Websites should be",
+            "sloganPart2": "pretty",
+            "sloganPart3": " and ",
+            "sloganPart4": "user-friendly",
+            "subSlogan": "As an UI developer and designer, my goal is to be able to find balance between the two"
+        },
+        "es": {
+            "graphicAlt": "Ilustración de una computadora mostrando un brillo en la pantalla",
+            "sloganPart1": "La web debería ser",
+            "sloganPart2": "linda",
+            "sloganPart3": " e ",
+            "sloganPart4": "intuitiva",
+            "subSlogan": "Como desarrollador y diseñador UI, mi misión está en encontrar el equilibrio entre ambos"
+        }
+    }
+}

@@ -6,7 +6,7 @@ const NavbarStyled = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: ${paddings.mobilePaddingX};
+    padding: 1.1rem;
 
     .logo {
         display: flex;

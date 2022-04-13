@@ -30,7 +30,7 @@ a {
 }
 
 p, a, svg {
-    transition: color 0.8s ease-in-out;
+    transition: color 1s ease-in-out;
 }
 
 `;
