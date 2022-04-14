@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="428&quot; class=&quot;wavy-mobile"
+   height="1017"
+   viewBox="0 0 428 1017"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="wave-mobile.svg"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.60570305"
+     inkscape:cx="553.90179"
+     inkscape:cy="515.92938"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M73.7548 829.369C191.525 819.999 317.405 728.023 317.405 728.023L315.15 712.183L248.143 241.428C248.143 241.428 49.5231 368.182 -125.59 294.625L-355.423 202.089L-277.354 750.561C-114.617 825.879 -71.0665 840.892 73.7548 829.369Z"
+     fill="unset"
+     id="path2" />
+  <path
+     d="m 491.793,140.082 c -117.77,9.371 -243.65,101.346 -243.65,101.346 l 2.255,15.84 67.007,470.756 c 0,0 198.62,-126.755 373.733,-53.197 L 920.971,767.362 842.903,218.891 C 680.165,143.572 636.615,128.559 491.793,140.082 Z"
+     fill="unset"
+     id="path4" />
+</svg>

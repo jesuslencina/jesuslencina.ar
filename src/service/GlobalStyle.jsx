@@ -33,6 +33,10 @@ h1, p, a, svg, span {
     transition: background-color 1s ease-in-out, color 1s ease-in-out;
 }
 
+path{
+    transition: fill 1.2s ease-in-out
+}
+
 h1, h2, p, a{
     line-height: 150%;
 

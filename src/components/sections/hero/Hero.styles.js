@@ -39,11 +39,30 @@ const HeroStyled = styled.section`
         }
     }
 
+    .wavy-mobile {
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        top: 15.5vh;
+        width: 100%;
+
+        path {
+            fill: ${(props) => props.theme.color};
+            filter: opacity(0.3);
+        }
+    }
+
+    .wavy-desktop {
+        display: none;
+    }
+
     @media screen and (min-width: ${breakpoints.laptop}) {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         padding: 16rem;
+
+        overflow: hidden;
 
         .text {
             h1 {
@@ -57,6 +76,25 @@ const HeroStyled = styled.section`
 
         .pc-graphic {
             width: 34rem;
+        }
+
+        .wavy-mobile {
+            display: none;
+        }
+
+        .wavy-desktop {
+            display: block;
+            right: 0;
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+
+            path {
+                fill: ${(props) => props.theme.color};
+                filter: opacity(0.3);
+            }
         }
     }
 `;
