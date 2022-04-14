@@ -14,7 +14,7 @@ const NavbarStyled = styled.header`
         font-size: 1.3rem;
 
         svg {
-            transform: translateY(-0.2rem);
+            transform: translateY(-0.1rem);
         }
 
         p {
@@ -145,8 +145,14 @@ const NavbarStyled = styled.header`
     @media screen and (min-width: ${breakpoints.laptop}) {
         padding: 1.5rem ${paddings.desktopPaddingX};
 
-        .logo svg {
-            transform: translateY(-0.1rem);
+        .logo {
+            p {
+                font-size: 1.4rem;
+            }
+
+            svg {
+                transform: translateY(-0.1rem);
+            }
         }
 
         nav {

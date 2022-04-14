@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { lighten } from "polished";
-import { paddings } from "../../../utils/variables";
+import { paddings, breakpoints } from "../../../utils/variables";
 
 const HeroStyled = styled.section`
     height: 90vh;
@@ -26,7 +25,6 @@ const HeroStyled = styled.section`
         width: 90%;
 
         h1 {
-            line-height: 150%;
             color: ${(props) => props.theme.color};
 
             span {
@@ -38,6 +36,27 @@ const HeroStyled = styled.section`
 
         p {
             font-size: 1.25rem;
+        }
+    }
+
+    @media screen and (min-width: ${breakpoints.laptop}) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 16rem;
+
+        .text {
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+
+        .pc-graphic {
+            width: 34rem;
         }
     }
 `;

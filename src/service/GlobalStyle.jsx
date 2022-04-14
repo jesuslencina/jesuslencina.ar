@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 import { normalize } from "polished";
-import { commonColors } from "../utils/variables";
+import { commonColors, breakpoints } from "../utils/variables";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -29,9 +29,22 @@ a {
     }
 }
 
-p, a, svg {
-    transition: color 1s ease-in-out;
+h1, p, a, svg, span {
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
 }
+
+h1, h2, p, a{
+    line-height: 150%;
+
+  
+}
+
+@media screen and (min-width: ${breakpoints.laptop}) {
+    p, a {
+        font-size: 1.25rem;
+    }
+}
+
 
 `;
 

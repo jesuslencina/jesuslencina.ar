@@ -20,7 +20,7 @@ const Hero = () => {
                     {texts[language].sloganPart1}{" "}
                     <span>{texts[language].sloganPart2}</span>
                     {texts[language].sloganPart3}{" "}
-                    <span>{texts[language].sloganPart4}</span>
+                    <span>{texts[language].sloganPart4}</span>.
                 </h1>
                 <p>{texts[language].subSlogan}</p>
             </div>
