@@ -56,7 +56,8 @@ const HeroStyled = styled.section`
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        padding: 16rem;
+        height: 80vh;
+        padding: 2vh 16rem;
 
         overflow: hidden;
 

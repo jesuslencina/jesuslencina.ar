@@ -143,7 +143,7 @@ const NavbarStyled = styled.header`
     }
 
     @media screen and (min-width: ${breakpoints.laptop}) {
-        padding: 1.5rem ${paddings.desktopPaddingX};
+        padding: 1.5rem 11rem;
 
         .logo {
             p {
