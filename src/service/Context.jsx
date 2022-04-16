@@ -12,7 +12,7 @@ export const ContextWrapper = ({ children }) => {
 
     const getRandomizedColor = () =>
         uniqolor.random({
-            lightness: 40,
+            lightness: 45,
         }).color;
 
     useEffect(() => {

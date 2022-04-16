@@ -1,0 +1,12 @@
+{
+    "texts": {
+        "en": {
+            "projects": "Projects",
+            "view": "VIEW"
+        },
+        "es": {
+            "projects": "Proyectos",
+            "view": "VER"
+        }
+    }
+}
