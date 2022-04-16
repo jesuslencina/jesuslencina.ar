@@ -171,12 +171,17 @@ const NavbarStyled = styled.header`
 
                 li {
                     all: unset;
+
                     margin: 0 2rem;
                     color: ${(props) => props.theme.color};
                     cursor: pointer;
 
                     &:last-child {
                         margin-right: 0;
+                    }
+
+                    a {
+                        font-size: 1.25rem;
                     }
                 }
             }

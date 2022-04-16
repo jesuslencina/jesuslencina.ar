@@ -53,6 +53,10 @@ h2 {
 
 p, a {
     font-size: 1.25rem;
+
+    @media screen and (min-width: ${breakpoints.laptop}){
+        font-size: 1.5rem;
+    }
 }
 
 `;

@@ -19,6 +19,7 @@ const About = () => {
             />
             <h2>{texts[language].aboutMe}</h2>
             <p>{texts[language].paragraph1}</p>
+            <br />
             <p>{texts[language].paragraph2}</p>
         </AboutStyled>
     );

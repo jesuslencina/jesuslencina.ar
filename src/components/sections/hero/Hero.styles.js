@@ -64,10 +64,6 @@ const HeroStyled = styled.section`
             h1 {
                 font-size: 3rem;
             }
-
-            p {
-                font-size: 1.5rem;
-            }
         }
 
         .pc-graphic {
