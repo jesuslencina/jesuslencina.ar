@@ -1979,6 +1979,11 @@ unbox-primitive@^1.0.1:
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
 
+uniqolor@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/uniqolor/-/uniqolor-1.0.2.tgz#c9ce7e32eb72c22885a7c1e96ed5b5062cce8a17"
+  integrity sha512-uNU+1iuhQioRZBG8TyjC+dFRuVmnZ6vp29ukoZjhrX3U5TP8onSr6S+qnTNAOnzlakmHWB0r/MPeMfMJ3+T7kg==
+
 uri-js@^4.2.2:
   version "4.4.1"
   resolved "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz"
