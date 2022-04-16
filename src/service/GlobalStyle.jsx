@@ -19,6 +19,7 @@ body {
     margin: 0;
     font-family: Outfit, Arial, sans-serif;
     color: ${commonColors.darkGray};
+    scroll-behavior: smooth;
 }
 
 a {

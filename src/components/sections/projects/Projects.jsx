@@ -9,7 +9,7 @@ const Projects = () => {
     const { language } = useContext(Context);
 
     return (
-        <ProjectsStyles>
+        <ProjectsStyles className="projects">
             <h2>{texts[language].projects}</h2>
             <div className="container">
                 {projects.map((project, index) => (

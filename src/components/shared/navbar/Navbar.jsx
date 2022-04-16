@@ -48,25 +48,25 @@ const Navbar = () => {
 
                 <ul className={open ? "active" : null}>
                     <li>
-                        <ScrollLink to="about">
+                        <ScrollLink smooth to="about">
                             {texts[language].about}
                         </ScrollLink>
                     </li>
 
                     <li>
-                        <ScrollLink to="projects">
+                        <ScrollLink smooth to="projects">
                             {texts[language].projects}
                         </ScrollLink>
                     </li>
 
                     <li>
-                        <ScrollLink to="experience">
+                        <ScrollLink smooth to="experience">
                             {texts[language].experience}
                         </ScrollLink>
                     </li>
 
                     <li>
-                        <ScrollLink to="contact">
+                        <ScrollLink smooth to="contact">
                             {texts[language].contact}
                         </ScrollLink>
                     </li>

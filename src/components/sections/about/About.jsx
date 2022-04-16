@@ -9,7 +9,7 @@ const About = () => {
     const { language } = useContext(Context);
 
     return (
-        <AboutStyled>
+        <AboutStyled className="about">
             <img
                 src={pfp}
                 alt={texts[language].pfpAlt}
