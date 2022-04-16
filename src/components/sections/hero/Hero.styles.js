@@ -33,10 +33,6 @@ const HeroStyled = styled.section`
                 padding: 0 0.3rem;
             }
         }
-
-        p {
-            font-size: 1.25rem;
-        }
     }
 
     .wavy-mobile {

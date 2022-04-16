@@ -1,0 +1,17 @@
+{
+    "texts": {
+        "en": {
+            "pfpAlt": "A circle with a picture of my face with glasses looking at the side",
+            "aboutMe": "About me",
+            "paragraph1": "I'm a full-time developer and an UX/UI trainee from Córdoba, Argentina. I started my career from scratch back in 2020, and I’m now proudly working at Jemersoft.",
+            "paragraph2": "As a developer and UX/UI designer, my goal is to make websites and apps as stylish and user-friendly as possible. I’m 100% committed to making websites that anyone can truly enjoy and experience."
+        },
+
+        "es": {
+            "pfpAlt": "Foto de mi cara usando lentes, enmarcada en un círculo",
+            "aboutMe": "Sobre mí",
+            "paragraph1": "Soy un desarrollador full-time y diseñador UX/UI trainee de Córdoba, Argentina. Comencé mi carrera desde cero en el año 2020, y ahora estoy trabajando en Jemersoft.",
+            "paragraph2": "Como desarrollador y diseñador, mi objetivo es hacer sitios y aplicaciones estéticamente deslumbrantes y con buena experiencia de usuario. Estoy 100% comprometido a hacer sitios que todos puedan experimentar."
+        }
+    }
+}
