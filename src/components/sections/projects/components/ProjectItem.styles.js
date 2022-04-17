@@ -3,7 +3,7 @@ import { boxShadow } from "../../../../utils/mixins";
 import { breakpoints } from "../../../../utils/variables";
 
 const ProjectItemStyled = styled.article`
-    width: 85%;
+    width: 100%;
     margin: 2rem 0;
     background-color: white;
     display: grid;

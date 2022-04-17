@@ -57,7 +57,7 @@ const HeroStyled = styled.section`
         flex-direction: row-reverse;
         align-items: center;
         height: 80vh;
-        padding: 2vh 16rem;
+        padding: 2vh ${paddings.desktopPaddingX};
 
         overflow: hidden;
 
