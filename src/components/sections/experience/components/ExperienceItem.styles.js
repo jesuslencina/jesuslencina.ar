@@ -13,7 +13,7 @@ const ExperienceItemStyled = styled.article`
         width: 100%;
         height: 100%;
         padding-right: 1rem;
-        fill: ${(props) => props.theme.color};
+        fill: ${(props) => props.bg};
     }
 
     p {
@@ -22,7 +22,7 @@ const ExperienceItemStyled = styled.article`
     }
 
     h3 {
-        color: ${(props) => props.theme.color};
+        color: ${(props) => props.bg};
         font-size: 1.5rem;
         margin: 0.5rem 0;
     }

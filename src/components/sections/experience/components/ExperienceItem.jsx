@@ -1,8 +1,8 @@
 import { ReactSVG } from "react-svg";
 import ExperienceItemStyled from "./ExperienceItem.styles";
 
-const ExperienceItem = ({ icon, place, time, present, title, type }) => (
-    <ExperienceItemStyled>
+const ExperienceItem = ({ icon, place, time, present, title, type, bg }) => (
+    <ExperienceItemStyled bg={bg}>
         <ReactSVG src={icon} className="icon" />
         <div>
             <p>

@@ -6,7 +6,8 @@
             "time": "Sept 2021",
             "present": true,
             "title": "Software Engineer",
-            "type": "Work"
+            "type": "Work",
+            "bg": "#317080"
         },
 
         {
@@ -15,7 +16,8 @@
             "time": "May 2021",
             "present": true,
             "title": "Community Mentor",
-            "type": "Volunteering"
+            "type": "Volunteering",
+            "bg": "#32c79a"
         },
         {
             "icon": "icons/coderhouse.svg",
@@ -23,7 +25,8 @@
             "time": "May 2021 - Sept 2021",
             "present": false,
             "title": "Teacher & Tutor",
-            "type": "Work"
+            "type": "Work",
+            "bg": "black"
         },
         {
             "icon": "icons/mobydigital.svg",
@@ -31,7 +34,8 @@
             "time": "Apr 2021 - May 2021",
             "present": false,
             "title": "Developer",
-            "type": "Work"
+            "type": "Work",
+            "bg": "#0b2b3f"
         },
         {
             "icon": "icons/acamica.svg",
@@ -39,7 +43,8 @@
             "time": "May 2020 - Dec 2020",
             "present": false,
             "title": "Frontend Developer",
-            "type": "Studies"
+            "type": "Studies",
+            "bg": "#6200ff"
         },
         {
             "icon": "icons/ministerio.svg",
@@ -47,7 +52,8 @@
             "time": "Aug 2021",
             "present": true,
             "title": "Fullstack Developer",
-            "type": "Studies"
+            "type": "Studies",
+            "bg": "#56baed"
         },
         {
             "icon": "icons/coursera.svg",
@@ -55,7 +61,8 @@
             "time": "Dec 2021",
             "present": true,
             "title": "UX Designer",
-            "type": "Studies"
+            "type": "Studies",
+            "bg": "#3646d4"
         }
     ]
 }
