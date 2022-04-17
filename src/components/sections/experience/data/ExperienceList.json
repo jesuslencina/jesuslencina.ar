@@ -1,0 +1,61 @@
+{
+    "experience": [
+        {
+            "icon": "icons/jemersoft.svg",
+            "place": "Jemersoft",
+            "time": "Sept 2021",
+            "present": true,
+            "title": "Software Engineer",
+            "type": "Work"
+        },
+
+        {
+            "icon": "icons/fec.svg",
+            "place": "FrontendCafé",
+            "time": "May 2021",
+            "present": true,
+            "title": "Community Mentor",
+            "type": "Volunteering"
+        },
+        {
+            "icon": "icons/coderhouse.svg",
+            "place": "Coderhouse",
+            "time": "May 2021 - Sept 2021",
+            "present": false,
+            "title": "Teacher & Tutor",
+            "type": "Work"
+        },
+        {
+            "icon": "icons/mobydigital.svg",
+            "place": "Mobydigital",
+            "time": "Apr 2021 - May 2021",
+            "present": false,
+            "title": "Developer",
+            "type": "Work"
+        },
+        {
+            "icon": "icons/acamica.svg",
+            "place": "Acámica",
+            "time": "May 2020 - Dec 2020",
+            "present": false,
+            "title": "Frontend Developer",
+            "type": "Studies"
+        },
+        {
+            "icon": "icons/ministerio.svg",
+            "place": "Ministry of Development",
+            "time": "Aug 2021",
+            "present": true,
+            "title": "Fullstack Developer",
+            "type": "Studies"
+        },
+        {
+            "icon": "icons/coursera.svg",
+            "place": "Coursera",
+            "time": "Dec 2021",
+            "present": true,
+            "title": "UX Designer",
+            "type": "Studies"
+        }
+    ]
+}

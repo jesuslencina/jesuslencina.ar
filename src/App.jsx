@@ -3,6 +3,7 @@ import About from "./components/sections/about/About";
 import Hero from "./components/sections/hero/Hero";
 import Navbar from "./components/shared/navbar/Navbar";
 import Projects from "./components/sections/projects/Projects";
+import Experience from "./components/sections/experience/Experience";
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Hero />
             <About />
             <Projects />
+            <Experience />
         </ContextWrapper>
     );
 };
