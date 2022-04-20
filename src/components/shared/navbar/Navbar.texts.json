@@ -6,7 +6,7 @@
             "about": "About",
             "projects": "Projects",
             "experience": "Experience",
-            "contact": "Contact"
+            "connect": "Connect"
         },
         "es": {
             "myName": "Jesús Lencina",
@@ -14,7 +14,7 @@
             "about": "Sobre mí",
             "projects": "Proyectos",
             "experience": "Experiencia",
-            "contact": "Contacto"
+            "connect": "Conectar"
         }
     }
 }

@@ -4,14 +4,14 @@ import { BiLinkExternal } from "react-icons/bi";
 
 import { Context } from "../../../service/Context";
 import ContactStyled from "./Contact.styles";
-import { texts } from "./ExperienceTexts.json";
+import { texts } from "./ContactTexts.json";
 
 const Contact = () => {
     const { language } = useContext(Context);
 
     return (
-        <ContactStyled>
-            <h2>{texts[language].contact}</h2>
+        <ContactStyled className="connect">
+            <h2>{texts[language].connect}</h2>
             <div className="container">
                 <a
                     className="github"

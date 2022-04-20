@@ -66,8 +66,8 @@ const Navbar = () => {
                     </li>
 
                     <li>
-                        <ScrollLink smooth to="contact">
-                            {texts[language].contact}
+                        <ScrollLink smooth to="connect">
+                            {texts[language].connect}
                         </ScrollLink>
                     </li>
 

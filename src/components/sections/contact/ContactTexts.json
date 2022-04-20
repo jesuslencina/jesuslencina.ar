@@ -1,10 +1,10 @@
 {
     "texts": {
         "en": {
-            "contact": "Contact"
+            "connect": "Connect"
         },
         "es": {
-            "contact": "Contacto"
+            "connect": "Conectar"
         }
     }
 }

@@ -10,6 +10,10 @@ const ContactStyled = styled.section`
     justify-content: center;
     align-items: center;
 
+    h2 {
+        margin-bottom: 2vh;
+    }
+
     .container {
         width: 100%;
         display: flex;
