@@ -9,3 +9,11 @@ export const cardLike = css`
     border-radius: 4px;
     ${boxShadow}
 `;
+
+export const expandOnHover = css`
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+`;

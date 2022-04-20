@@ -4,6 +4,8 @@ import Hero from "./components/sections/hero/Hero";
 import Navbar from "./components/shared/navbar/Navbar";
 import Projects from "./components/sections/projects/Projects";
 import Experience from "./components/sections/experience/Experience";
+import Contact from "./components/sections/contact/Contact";
+import Footer from "./components/sections/footer/Footer";
 
 const App = () => {
     return (
@@ -13,6 +15,8 @@ const App = () => {
             <About />
             <Projects />
             <Experience />
+            <Contact />
+            <Footer />
         </ContextWrapper>
     );
 };
