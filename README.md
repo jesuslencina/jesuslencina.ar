@@ -16,12 +16,10 @@ Because I wanted to have a professional portfolio space to showcase my projects.
 
 ## Stuff I used
 
-For now, just mentioned, will link them up later:
-
--   Figma for prototyping and SVG creation
--   BoxySVG and Inkscape for SVG handling
--   Styled components for styling
--   ReactSVG for SVG handling in React
--   React Icons and Twemazing for icons and emojis
--   React Scroll for linking up sections in the navbar
--   Uniqolor for color generation
+-   [Figma](https://www.figma.com/) for prototyping and SVG creation
+-   [BoxySVG](https://boxy-svg.com/) and [Inkscape](https://inkscape.org/) for SVG handling
+-   [Styled components](https://styled-components.com/) for styling
+-   [ReactSVG](https://www.npmjs.com/package/react-svg) for SVG handling in React
+-   [React Icons](https://react-icons.github.io/react-icons/) and [Twemazing](https://www.npmjs.com/package/twemazing) for icons and emojis
+-   [React Scroll](https://www.npmjs.com/package/react-scroll) for linking up sections in the navbar
+-   [Uniqolor](https://www.npmjs.com/package/uniqolor) for color generation
