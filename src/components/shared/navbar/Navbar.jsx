@@ -85,8 +85,10 @@ const Navbar = () => {
                                 onClick={switchLangSwitcher}>
                                 {language === "en" ? (
                                     <FlagUnitedStates size="30" />
-                                ) : (
+                                ) : language === "es" ? (
                                     <FlagArgentina size="30" />
+                                ) : (
+                                    <FlagFrance size="30" />
                                 )}
 
                                 <AiFillCaretDown
