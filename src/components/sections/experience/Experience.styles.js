@@ -5,7 +5,7 @@ const ExperienceStyled = styled.section`
     padding: 4vh ${paddings.mobilePaddingX};
 
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 
     .container {
         display: flex;
@@ -22,7 +22,7 @@ const ExperienceStyled = styled.section`
         z-index: -1;
         position: absolute;
         left: -15vw;
-        top: 30vh;
+        top: 20vh;
 
         path {
             fill: ${(props) => props.theme.color};

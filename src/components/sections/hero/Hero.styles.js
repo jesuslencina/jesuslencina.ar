@@ -53,8 +53,8 @@ const HeroStyled = styled.section`
     }
 
     @media screen and (min-width: ${breakpoints.laptop}) {
-        display: flex;
-        flex-direction: row-reverse;
+        grid-template-areas: "illustration text";
+        grid-template-rows: 1fr;
         align-items: center;
         height: 80vh;
         padding: 2vh ${paddings.desktopPaddingX};
@@ -62,13 +62,16 @@ const HeroStyled = styled.section`
         overflow: hidden;
 
         .text {
+            grid-area: illustration;
+
             h1 {
                 font-size: 3rem;
             }
         }
 
         .pc-graphic {
-            width: 34rem;
+            width: 24rem;
+            z-index: -1;
         }
 
         .wavy-mobile {
