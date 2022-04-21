@@ -6,6 +6,8 @@ const ProjectsStyles = styled.section`
     flex-direction: column;
     padding: 4vh ${paddings.mobilePaddingX};
     text-align: center;
+    position: relative;
+    overflow: hidden;
 
     .container {
         display: flex;
@@ -21,6 +23,18 @@ const ProjectsStyles = styled.section`
             flex-wrap: wrap;
             justify-content: space-around;
             gap: 4rem;
+        }
+    }
+
+    .blob {
+        z-index: -1;
+        position: absolute;
+        right: -10vw;
+        top: 30vh;
+
+        path {
+            fill: ${(props) => props.theme.color};
+            filter: opacity(0.3);
         }
     }
 `;

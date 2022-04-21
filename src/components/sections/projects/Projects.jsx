@@ -1,9 +1,13 @@
 import { useContext } from "react";
+import { ReactSVG } from "react-svg";
+
 import { Context } from "../../../service/Context";
 import ProjectsStyles from "./Projects.styles";
 import { projects } from "./data/Projects.json";
 import { texts } from "./Projects.texts.json";
 import ProjectItem from "./components/ProjectItem";
+
+import Blob1 from "../../../assets/graphic/blob1.svg";
 
 const Projects = () => {
     const { language } = useContext(Context);
@@ -20,6 +24,7 @@ const Projects = () => {
                     />
                 ))}
             </div>
+            <ReactSVG src={Blob1} className="blob" />
         </ProjectsStyles>
     );
 };
