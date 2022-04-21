@@ -1,6 +1,11 @@
 import { useContext, useState, useRef } from "react";
 import { Link as ScrollLink } from "react-scroll";
-import { ArtistPalette, FlagArgentina, FlagUnitedStates } from "twemazing";
+import {
+    ArtistPalette,
+    FlagArgentina,
+    FlagFrance,
+    FlagUnitedStates,
+} from "twemazing";
 import { RiMenu3Line } from "react-icons/ri";
 import { VscChromeClose } from "react-icons/vsc";
 import { AiFillCaretDown } from "react-icons/ai";
@@ -113,6 +118,14 @@ const Navbar = () => {
                                     }`}
                                     onClick={() => setLanguage("en")}>
                                     <FlagUnitedStates size="30" />
+                                </div>
+
+                                <div
+                                    className={` flag-wrapper ${
+                                        language === "fr" && "active"
+                                    }`}
+                                    onClick={() => setLanguage("fr")}>
+                                    <FlagFrance size="30" />
                                 </div>
                             </div>
                         </div>

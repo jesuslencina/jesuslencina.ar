@@ -5,6 +5,9 @@
         },
         "es": {
             "connect": "Conectar"
+        },
+        "fr": {
+            "connect": "Connecter"
         }
     }
 }

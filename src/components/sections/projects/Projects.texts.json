@@ -7,6 +7,10 @@
         "es": {
             "projects": "Proyectos",
             "view": "VER"
+        },
+        "fr": {
+            "projects": "Projets",
+            "view": "VOIR"
         }
     }
 }

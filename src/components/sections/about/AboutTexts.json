@@ -12,6 +12,13 @@
             "aboutMe": "Sobre mí",
             "paragraph1": "Soy un desarrollador full-time y diseñador UX/UI trainee de Córdoba, Argentina. Comencé mi carrera desde cero en el año 2020, y ahora estoy trabajando en Jemersoft.",
             "paragraph2": "Como desarrollador y diseñador, mi objetivo es hacer sitios y aplicaciones estéticamente deslumbrantes y con buena experiencia de usuario. Estoy 100% comprometido a hacer sitios que todos puedan experimentar."
+        },
+
+        "fr": {
+            "pfpAlt": "Photo de ma face avec mes lunettes, dans un cercle",
+            "aboutMe": "Sur moi",
+            "paragraph1": "Je suis un développeur full-time et designer UX/UI trainee de Cordoba, en Argentine. J’ai commencé ma carrière à partir de zéro en 2020, et maintenant je travaille sur Jemersoft.",
+            "paragraph2": "Comme développeur et designer, mon objectif est de faire des sites et apps esthétiquement magnifiques avec une bonne usabilité. Je suis 100% détérmine à faire des sites qui tout le monde peut apprécier."
         }
     }
 }

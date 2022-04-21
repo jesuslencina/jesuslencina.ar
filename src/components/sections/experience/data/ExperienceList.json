@@ -6,7 +6,7 @@
             "time": "Sept 2021",
             "present": true,
             "title": "Software Engineer",
-            "type": "Work",
+            "type": { "en": "Work", "es": "Trabajo", "fr": "Travail" },
             "bg": "#317080"
         },
 
@@ -16,7 +16,11 @@
             "time": "May 2021",
             "present": true,
             "title": "Community Mentor",
-            "type": "Volunteering",
+            "type": {
+                "en": "Volunteering",
+                "es": "Voluntariado",
+                "fr": "Voluntariat"
+            },
             "bg": "#32c79a"
         },
         {
@@ -25,7 +29,7 @@
             "time": "May 2021 - Sept 2021",
             "present": false,
             "title": "Teacher & Tutor",
-            "type": "Work",
+            "type": { "en": "Work", "es": "Trabajo", "fr": "Travail" },
             "bg": "black"
         },
         {
@@ -34,7 +38,7 @@
             "time": "Apr 2021 - May 2021",
             "present": false,
             "title": "Developer",
-            "type": "Work",
+            "type": { "en": "Work", "es": "Trabajo", "fr": "Travail" },
             "bg": "#0b2b3f"
         },
         {
@@ -43,7 +47,7 @@
             "time": "May 2020 - Dec 2020",
             "present": false,
             "title": "Frontend Developer",
-            "type": "Studies",
+            "type": { "en": "Studies", "es": "Estudios", "fr": "Études" },
             "bg": "#6200ff"
         },
         {
@@ -52,7 +56,7 @@
             "time": "Aug 2021",
             "present": true,
             "title": "Fullstack Developer",
-            "type": "Studies",
+            "type": { "en": "Studies", "es": "Estudios", "fr": "Études" },
             "bg": "#56baed"
         },
         {
@@ -61,7 +65,7 @@
             "time": "Dec 2021",
             "present": true,
             "title": "UX Designer",
-            "type": "Studies",
+            "type": { "en": "Studies", "es": "Estudios", "fr": "Études" },
             "bg": "#3646d4"
         }
     ]

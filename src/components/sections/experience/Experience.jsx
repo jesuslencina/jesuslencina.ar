@@ -14,7 +14,7 @@ const Experience = () => {
             <h2>{texts[language].experience}</h2>
             <div className="container">
                 {experience.map((item, index) => (
-                    <ExperienceItem key={index} {...item} />
+                    <ExperienceItem key={index} language={language} {...item} />
                 ))}
             </div>
         </ExperienceStyled>

@@ -15,6 +15,14 @@
             "sloganPart3": " e ",
             "sloganPart4": "intuitiva",
             "subSlogan": "Como desarrollador y diseñador UI, mi misión está en encontrar el equilibrio entre ambas"
+        },
+        "fr": {
+            "graphicAlt": "Illustration d'un ordinateur avec un éclat dans l'écran",
+            "sloganPart1": "Le web devrait être",
+            "sloganPart2": "beau",
+            "sloganPart3": " et ",
+            "sloganPart4": "intuitif",
+            "subSlogan": "Comme développeur et designer web, je dois trouver l'équilibre entre les deux"
         }
     }
 }
