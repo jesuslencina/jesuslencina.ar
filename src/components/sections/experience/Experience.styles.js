@@ -21,8 +21,10 @@ const ExperienceStyled = styled.section`
     .blob {
         z-index: -1;
         position: absolute;
-        left: -15vw;
-        top: 20vh;
+        left: -25vw;
+        top: -5vh;
+
+        display: none;
 
         path {
             fill: ${(props) => props.theme.color};

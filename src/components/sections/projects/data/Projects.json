@@ -61,41 +61,6 @@
         },
 
         {
-            "title": "Filateliapp",
-            "category": "dev",
-            "image": "/img/projects/Filateliapp.webp",
-            "accent": "#4e9fc6",
-            "repo": "https://github.com/jesuslencina/filateliapp",
-            "link": "https://filateliapp.vercel.app/",
-            "time": "Feb 2022",
-            "tags": [
-                {
-                    "text": "REACT"
-                },
-                {
-                    "text": "SASS"
-                }
-            ]
-        },
-
-        {
-            "title": "Estamprintas",
-            "category": "dev",
-            "image": "/img/projects/Estamprintas.webp",
-            "accent": "#dfb11a",
-            "repo": "https://github.com/jesuslencina/estamprinta",
-            "link": "https://estamprinta.netlify.app/",
-            "time": "Feb 2021",
-            "tags": [
-                {
-                    "text": "REACT"
-                },
-                {
-                    "text": "FIREBASE"
-                }
-            ]
-        },
-        {
             "title": "Divago",
             "category": "dev",
             "image": "/img/projects/Divago.webp",
