@@ -11,6 +11,16 @@
         },
 
         {
+            "icon": "icons/coderhouse.svg",
+            "place": "Coderhouse",
+            "time": "May 2021",
+            "present": true,
+            "title": "React Tutor",
+            "type": { "en": "Work", "es": "Trabajo", "fr": "Travail" },
+            "bg": "black"
+        },
+
+        {
             "icon": "icons/fec.svg",
             "place": "FrontendCafé",
             "time": "May 2021",

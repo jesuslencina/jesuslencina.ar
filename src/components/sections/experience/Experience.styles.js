@@ -22,9 +22,7 @@ const ExperienceStyled = styled.section`
         z-index: -1;
         position: absolute;
         left: -25vw;
-        top: -5vh;
-
-        display: none;
+        top: 0vh;
 
         path {
             fill: ${(props) => props.theme.color};
