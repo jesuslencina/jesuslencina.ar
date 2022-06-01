@@ -22,7 +22,7 @@ const ExperienceStyled = styled.section`
         z-index: -1;
         position: absolute;
         left: -25vw;
-        top: 0vh;
+        top: 20vh;
 
         path {
             fill: ${(props) => props.theme.color};
@@ -36,6 +36,10 @@ const ExperienceStyled = styled.section`
         .container {
             display: grid;
             grid-template-columns: 1fr 1fr;
+        }
+
+        .blob {
+            top: 0vh;
         }
     }
 `;

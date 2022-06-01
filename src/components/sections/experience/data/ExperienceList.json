@@ -43,6 +43,17 @@
             "type": { "en": "Studies", "es": "Estudios", "fr": "Études" },
             "bg": "#6200ff"
         },
+
+        {
+            "icon": "icons/coderhouse.svg",
+            "place": "Coderhouse",
+            "time": "Dec 2020 - Feb 2021",
+            "present": false,
+            "title": "React Developer",
+            "type": { "en": "Studies", "es": "Estudios", "fr": "Études" },
+            "bg": "black"
+        },
+
         {
             "icon": "icons/ministerio.svg",
             "place": "Ministry of Development",
