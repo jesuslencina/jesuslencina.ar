@@ -1,11 +1,21 @@
 import { createGlobalStyle } from "styled-components";
 
 import { normalize } from "polished";
+import isIos from "is-ios";
 import { commonColors, breakpoints } from "../utils/variables";
 
 const GlobalStyle = createGlobalStyle`
 
 ${normalize()}
+
+${
+    isIos &&
+    `
+    .blob, .wavy-mobile{
+        display: none !important;
+    }
+`
+}
 
 * {
     margin: 0;
