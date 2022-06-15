@@ -8,6 +8,7 @@ const ExperienceItemStyled = styled.article`
     text-align: center;
     align-items: center;
     padding: 1rem;
+    margin: 0;
 
     .icon svg {
         width: 100%;
@@ -34,7 +35,7 @@ const ExperienceItemStyled = styled.article`
     @media screen and (min-width: ${breakpoints.tablet}) {
         grid-template-columns: 30% 70%;
         text-align: left;
-        margin: 1.25rem;
+        margin: 1.25rem 0;
 
         p {
             font-size: 1rem;

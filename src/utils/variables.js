@@ -4,12 +4,12 @@ export const commonColors = {
 
 export const paddings = {
     mobilePaddingX: "2.8rem",
-    desktopPaddingX: "12vw",
+    desktopPaddingX: "14vw",
 };
 
 export const breakpoints = {
     largePhone: "480px",
     tablet: "769px",
     laptop: "1025px",
-    bigScreen: "1201px",
+    bigScreen: "1399px",
 };

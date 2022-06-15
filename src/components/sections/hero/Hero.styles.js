@@ -63,6 +63,7 @@ const HeroStyled = styled.section`
 
         .text {
             grid-area: illustration;
+            width: 100%;
 
             h1 {
                 font-size: 3rem;
@@ -70,6 +71,8 @@ const HeroStyled = styled.section`
         }
 
         .pc-graphic {
+            transform: translateX(0.25rem);
+            justify-self: center;
             width: 24rem;
             z-index: -1;
         }
@@ -91,6 +94,12 @@ const HeroStyled = styled.section`
                 fill: ${(props) => props.theme.color};
                 filter: opacity(0.3);
             }
+        }
+    }
+
+    @media screen and (min-width: ${breakpoints.bigScreen}) {
+        .pc-graphic {
+            transform: translateX(0) scale(1.25);
         }
     }
 `;

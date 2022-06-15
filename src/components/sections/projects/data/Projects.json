@@ -58,24 +58,6 @@
                     "text": "CSS"
                 }
             ]
-        },
-
-        {
-            "title": "Divago",
-            "category": "dev",
-            "image": "/img/projects/Divago.webp",
-            "accent": "#639a6d",
-            "repo": "https://github.com/jesuslencina/alojamientos-proyecto-3",
-            "link": "https://divago-jesus.netlify.app/",
-            "time": "Dec 2020",
-            "tags": [
-                {
-                    "text": "REACT"
-                },
-                {
-                    "text": "MOMENTJS"
-                }
-            ]
         }
     ]
 }

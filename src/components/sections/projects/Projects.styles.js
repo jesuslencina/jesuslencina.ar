@@ -20,8 +20,8 @@ const ProjectsStyles = styled.section`
 
         .container {
             flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: space-between;
+            align-items: center;
             gap: 4rem;
         }
     }
@@ -29,8 +29,9 @@ const ProjectsStyles = styled.section`
     .blob {
         z-index: -1;
         position: absolute;
-        right: -10vw;
-        top: 30vh;
+        transform: scale(0.65);
+        right: -15vw;
+        top: -8vh;
 
         path {
             fill: ${(props) => props.theme.color};

@@ -10,7 +10,7 @@ const ExperienceStyled = styled.section`
     .container {
         display: flex;
         flex-direction: column;
-        gap: 4vh;
+        gap: 4rem;
     }
 
     h2 {
@@ -39,7 +39,9 @@ const ExperienceStyled = styled.section`
         }
 
         .blob {
-            top: 0vh;
+            transform: scale(1.2);
+            left: -8vw;
+            top: 20vh;
         }
     }
 `;

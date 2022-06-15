@@ -97,8 +97,8 @@ const ProjectItemStyled = styled.article`
         }
     }
 
-    @media screen and (min-width: ${breakpoints.tablet}) {
-        width: unset;
+    @media screen and (min-width: ${breakpoints.laptop}) {
+        width: 30%;
     }
 `;
 
