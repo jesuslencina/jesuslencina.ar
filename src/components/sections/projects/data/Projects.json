@@ -58,6 +58,27 @@
                     "text": "CSS"
                 }
             ]
+        },
+
+        {
+            "title": "VinylArt",
+            "category": "UI + Dev",
+            "image": "/img/projects/Vinylart.webp",
+            "accent": "#333232",
+            "repo": "https://github.com/jesuslencina/vinylartcba-web",
+            "link": "https://vinylartcba.vercel.app/",
+            "time": "Jun 2022",
+            "tags": [
+                {
+                    "text": "REACT"
+                },
+                {
+                    "text": "SCSS"
+                },
+                {
+                    "text": "F. MOTION"
+                }
+            ]
         }
     ]
 }

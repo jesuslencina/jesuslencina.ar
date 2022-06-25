@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { boxShadow } from "../../../../utils/mixins";
 import { breakpoints } from "../../../../utils/variables";
+import { projects } from "../data/Projects.json";
 
 const ProjectItemStyled = styled.article`
     width: 100%;
@@ -98,7 +99,7 @@ const ProjectItemStyled = styled.article`
     }
 
     @media screen and (min-width: ${breakpoints.laptop}) {
-        width: 30%;
+        width: calc(100% / ${projects.length});
     }
 `;
 
