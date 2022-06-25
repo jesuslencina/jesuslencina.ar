@@ -23,6 +23,7 @@ const ProjectsStyles = styled.section`
             justify-content: space-between;
             align-items: center;
             gap: 4rem;
+            flex-wrap: wrap;
         }
     }
 
@@ -36,6 +37,13 @@ const ProjectsStyles = styled.section`
         path {
             fill: ${(props) => props.theme.color};
             filter: opacity(0.3);
+        }
+    }
+
+    @media screen and (min-width: ${breakpoints.laptop}) {
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 `;
