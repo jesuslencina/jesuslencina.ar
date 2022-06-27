@@ -13,8 +13,8 @@ const NavbarStyled = styled.header`
         align-items: center;
         font-size: 1.3rem;
 
-        svg {
-            transform: translateY(-0.1rem);
+        .palette div svg {
+            transform: translateY(0.1rem);
         }
 
         p {

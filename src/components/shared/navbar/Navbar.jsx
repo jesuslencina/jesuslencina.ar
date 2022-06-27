@@ -1,19 +1,20 @@
 import { useContext, useState, useRef } from "react";
 import { Helmet } from "react-helmet";
 import { Link as ScrollLink } from "react-scroll";
-import {
-    ArtistPalette,
-    FlagArgentina,
-    FlagFrance,
-    FlagUnitedStates,
-} from "twemazing";
+
 import { RiMenu3Line } from "react-icons/ri";
 import { VscChromeClose } from "react-icons/vsc";
 import { AiFillCaretDown } from "react-icons/ai";
 
+import palette from "../../../assets/graphic/palette.svg";
+import argentina from "../../../assets/graphic/flags/argentina.svg";
+import usa from "../../../assets/graphic/flags/usa.svg";
+import france from "../../../assets/graphic/flags/france.svg";
+
 import { Context } from "../../../service/Context";
 import NavbarStyled from "./Navbar.styled";
 import { texts } from "./Navbar.texts.json";
+import { ReactSVG } from "react-svg";
 
 const Navbar = () => {
     const { language, setLanguage, setColor } = useContext(Context);
@@ -37,7 +38,7 @@ const Navbar = () => {
                 <div
                     className="logo"
                     onClick={() => colorInput.current.click()}>
-                    <ArtistPalette size={1.6} rem />
+                    <ReactSVG src={palette} scale={1.6} className="palette" />
                     <p>{texts[language].myName}</p>
                 </div>
 
@@ -90,11 +91,11 @@ const Navbar = () => {
                                     }`}
                                     onClick={switchLangSwitcher}>
                                     {language === "en" ? (
-                                        <FlagUnitedStates size="30" />
+                                        <ReactSVG src={usa} size="30" />
                                     ) : language === "es" ? (
-                                        <FlagArgentina size="30" />
+                                        <ReactSVG src={argentina} width="30" />
                                     ) : (
-                                        <FlagFrance size="30" />
+                                        <ReactSVG src={france} width="30" />
                                     )}
 
                                     <AiFillCaretDown
@@ -111,8 +112,9 @@ const Navbar = () => {
                                             language === "es" && "active"
                                         }`}
                                         onClick={() => setLanguage("es")}>
-                                        <FlagArgentina
-                                            size="30"
+                                        <ReactSVG
+                                            src={argentina}
+                                            width="30"
                                             className={
                                                 language === "es" && "active"
                                             }
@@ -125,7 +127,7 @@ const Navbar = () => {
                                             language === "en" && "active"
                                         }`}
                                         onClick={() => setLanguage("en")}>
-                                        <FlagUnitedStates size="30" />
+                                        <ReactSVG src={usa} width="30" />
                                     </div>
 
                                     <div
@@ -133,7 +135,7 @@ const Navbar = () => {
                                             language === "fr" && "active"
                                         }`}
                                         onClick={() => setLanguage("fr")}>
-                                        <FlagFrance size="30" />
+                                        <ReactSVG src={france} width="30" />
                                     </div>
                                 </div>
                             </div>

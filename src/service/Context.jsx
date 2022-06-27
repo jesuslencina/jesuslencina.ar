@@ -7,7 +7,7 @@ import Theme from "./Theme";
 export const Context = createContext();
 
 export const ContextWrapper = ({ children }) => {
-    const [language, setLanguage] = useState("en");
+    const [language, setLanguage] = useState("es");
     const [color, setColor] = useState("gray");
 
     const getRandomizedColor = () =>
