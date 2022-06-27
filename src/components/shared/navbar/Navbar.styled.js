@@ -81,6 +81,11 @@ const NavbarStyled = styled.header`
         }
 
         .switcher-area {
+            .flag-svg div {
+                display: flex;
+                justify-content: center;
+            }
+
             .lang-switcher {
                 position: relative;
 

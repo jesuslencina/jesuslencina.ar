@@ -91,11 +91,23 @@ const Navbar = () => {
                                     }`}
                                     onClick={switchLangSwitcher}>
                                     {language === "en" ? (
-                                        <ReactSVG src={usa} size="30" />
+                                        <ReactSVG
+                                            src={usa}
+                                            size="30"
+                                            className="flag-svg"
+                                        />
                                     ) : language === "es" ? (
-                                        <ReactSVG src={argentina} width="30" />
+                                        <ReactSVG
+                                            src={argentina}
+                                            width="30"
+                                            className="flag-svg"
+                                        />
                                     ) : (
-                                        <ReactSVG src={france} width="30" />
+                                        <ReactSVG
+                                            src={france}
+                                            width="30"
+                                            className="flag-svg"
+                                        />
                                     )}
 
                                     <AiFillCaretDown
@@ -115,9 +127,9 @@ const Navbar = () => {
                                         <ReactSVG
                                             src={argentina}
                                             width="30"
-                                            className={
+                                            className={`flag-svg ${
                                                 language === "es" && "active"
-                                            }
+                                            }`}
                                             onClick={() => setLanguage("es")}
                                         />
                                     </div>
@@ -127,7 +139,11 @@ const Navbar = () => {
                                             language === "en" && "active"
                                         }`}
                                         onClick={() => setLanguage("en")}>
-                                        <ReactSVG src={usa} width="30" />
+                                        <ReactSVG
+                                            src={usa}
+                                            width="30"
+                                            className="flag-svg"
+                                        />
                                     </div>
 
                                     <div
@@ -135,7 +151,11 @@ const Navbar = () => {
                                             language === "fr" && "active"
                                         }`}
                                         onClick={() => setLanguage("fr")}>
-                                        <ReactSVG src={france} width="30" />
+                                        <ReactSVG
+                                            src={france}
+                                            width="30"
+                                            className="flag-svg"
+                                        />
                                     </div>
                                 </div>
                             </div>
