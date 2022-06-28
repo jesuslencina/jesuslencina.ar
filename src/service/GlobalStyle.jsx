@@ -21,7 +21,7 @@ ${
 ${
     detect().name === "safari" &&
     `
-    .wavy-desktop{
+    .wavy-mobile, .wavy-desktop{
         display: none !important;
     }
 `
