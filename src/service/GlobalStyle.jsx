@@ -1,7 +1,8 @@
 import { createGlobalStyle } from "styled-components";
-
 import { normalize } from "polished";
 import isIos from "is-ios";
+import { detect } from "detect-browser";
+
 import { commonColors, breakpoints } from "../utils/variables";
 
 const GlobalStyle = createGlobalStyle`
@@ -12,6 +13,15 @@ ${
     isIos &&
     `
     .blob, .wavy-mobile{
+        display: none !important;
+    }
+`
+}
+
+${
+    detect().name === "safari" &&
+    `
+    .wavy-mobile{
         display: none !important;
     }
 `
